@@ -762,7 +762,7 @@ vector<plot3dBlock> ReadP3dGrid(const string &gridName, const double &LRef, doub
 }
 
 //function to trim leading and trailing whitespace from a string, and also remove data after a comment
-string Trim(const string &s, const string &whitespace = " \t"){
+string Trim(const string &s, const string &whitespace){
 
   const string comment = "#";                                  //# is comment character for input file
 

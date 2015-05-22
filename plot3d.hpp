@@ -118,6 +118,6 @@ bool IsMatrixData(const int&, const int&, const int&, const int&, const int&, co
 vector<vector3d<int> > HyperplaneReorder(const int &, const int &, const int &);
 
 //function to trim leading and trailing whitespace from a string
-string Trim(const string &s, const string &whitespace = " \t"){
+string Trim(const string &s, const string &whitespace = " \t");
 
 #endif
