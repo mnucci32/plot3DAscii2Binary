@@ -1,0 +1,14 @@
+ABOUT THE CODE
+This codes is Plot3D grid converter. It reads a Plot3D grid in ascii format and outputs the same grid in binary format.
+
+DESCRIPTION OF SOME FILES AND CLASSES
+vector3d - A templated class to store vectors in 3D space.
+plot3d - Contains classes to read multiblock plot3d files and calculate grid metrics.
+
+HOW TO COMPILE
+Assuming you have g++ (or equivalent) with c++11 support, just type 'make'.
+
+HOW TO RUN
+ascii2Binary asciiGrid binaryGrid
+
+The code assumes the extensions for the grids will be .xyz
