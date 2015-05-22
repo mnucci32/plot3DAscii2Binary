@@ -1,4 +1,4 @@
-/*  An open source Navier-Stokes CFD solver.
+/*  An open source Plot3D ascii to binary converter.
     Copyright (C) 2015  Michael Nucci (michael.nucci@gmail.com)
 
     This program is free software: you can redistribute it and/or modify

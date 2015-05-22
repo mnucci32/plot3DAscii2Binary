@@ -1,4 +1,4 @@
-/*  An open source Navier-Stokes CFD solver.
+/*  An open source Plot3D ascii to binary converter.
     Copyright (C) 2015  Michael Nucci (michael.nucci@gmail.com)
 
     This program is free software: you can redistribute it and/or modify
@@ -762,7 +762,7 @@ vector<plot3dBlock> ReadP3dGrid(const string &gridName, const double &LRef, doub
 }
 
 //function to trim leading and trailing whitespace from a string, and also remove data after a comment
-string trim(const string &s, const string &whitespace = " \t"){
+string Trim(const string &s, const string &whitespace = " \t"){
 
   const string comment = "#";                                  //# is comment character for input file
 
@@ -812,7 +812,7 @@ vector<plot3dBlock> ReadP3dGridAscii(const string &gridName, const double &LRef,
 
   while(getline(fName,line)){ //while there are still lines in the input file, execute loop
 
-    line = trim(line);  //remove leading and trailing whitespace and ignore comments
+    line = Trim(line);  //remove leading and trailing whitespace and ignore comments
 
     //split line into words
     istringstream buf(line);

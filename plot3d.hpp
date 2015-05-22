@@ -1,4 +1,4 @@
-/*  An open source Navier-Stokes CFD solver.
+/*  An open source Plot3D ascii to binary converter.
     Copyright (C) 2015  Michael Nucci (michael.nucci@gmail.com)
 
     This program is free software: you can redistribute it and/or modify
@@ -117,6 +117,7 @@ bool IsMatrixData(const int&, const int&, const int&, const int&, const int&, co
 //function to reorder block by hyperplanes
 vector<vector3d<int> > HyperplaneReorder(const int &, const int &, const int &);
 
-
+//function to trim leading and trailing whitespace from a string
+string Trim(const string &s, const string &whitespace = " \t"){
 
 #endif
