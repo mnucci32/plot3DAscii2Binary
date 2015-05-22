@@ -1,0 +1,17 @@
+#Ignore compiled object files
+*.o
+
+#Ignore temporary copy files
+*~
+\#*
+
+#Ignore valgrind and gprof output
+gmon.out
+callgrind.out.*
+cachegrind.out.*
+
+#Ignore compiled executable
+ascii2Binary
+
+#Ignore grid files
+*.xyz
